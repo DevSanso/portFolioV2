@@ -1,0 +1,27 @@
+div[widget-change-box] {
+    position: relative;
+}
+
+div[widget-change-box] > section {
+    width : 100%;
+    height : 100%;
+    padding-bottom: 50px;
+}
+
+div[widget-change-box] > nav {
+    width : 100%;
+    height : 50px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+div[widget-change-box] > nav  > div {
+    width : 36px;
+    height : 36px;
+    margin-top : 10px;
+    display :inline-block;
+}
+div[widget-change-box] > nav  > div:hover {
+    cursor: pointer;
+}

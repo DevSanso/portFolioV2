@@ -1,0 +1,50 @@
+div[widget-project-card] {
+    width : 100%;
+    height : 40px;
+    overflow: hidden;
+    margin-top : 10px;
+    margin-bottom: 10px;
+}
+div[widget-project-card] > * {
+    float: left;
+    
+}
+div[widget-project-card]  > header {
+    width : 50%;
+    margin-right: 20%;
+}
+
+div[widget-project-card]  > header > * {
+    vertical-align: middle;
+}
+div[widget-project-card]  > header > img {
+    height : 36px;
+    width : 36px;
+    margin-right : 20px;
+}
+
+div[widget-project-card]  > section {
+    width : 30%;
+    height: 100%;
+}
+
+span.project-card-widget-skill-box {
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: content-box;
+    border-style: solid;
+    vertical-align: middle;
+}
+span.project-card-widget-skill-box:hover {
+    cursor: default;
+}
+
+div[widget-project-card].is-url-none > header > span:hover {
+    cursor: default;
+} 
+div[widget-project-card] > header > span:hover {
+    cursor: pointer;
+} 

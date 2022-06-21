@@ -1,0 +1,32 @@
+{
+    "Crawling Youtube Comment" : {
+        "comment":"유튜브 댓글 수집 프로그램",
+        "skill":["golang","C#","python"],
+        "url":"https://github.com/DevSanso/YoutubeCommentCollector"
+    },
+    "StorageTransWord":{
+        "comment":"단어 번역 후 저장 프로그램",
+        "skill":["sqlite","rust"],
+        "url":"https://github.com/DevSanso/StorageTransWord"
+    },
+    "toss payment module":{
+        "comment":"토스 결제 서버",
+        "skill":["kotlin"],
+        "url":"https://github.com/DevSanso/toss-payment-module"
+    },
+    "Blog":{
+        "comment":"개인 블로그 서버",
+        "skill":["express","react","typescript"],
+        "url":"https://github.com/DevSanso/Blog"
+    },
+    "Rapi":{
+        "comment":"라즈베리파이를 이용한 와이파이 연동 시계",
+        "skill":["golang","react","flutter"],
+        "url":null
+    },
+    "PortFolio":{
+        "comment":"포트폴리오",
+        "skill":["react","typescript"],
+        "url":null
+    }
+}

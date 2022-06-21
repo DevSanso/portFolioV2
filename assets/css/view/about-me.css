@@ -1,0 +1,47 @@
+div[view-about-me] {
+    padding-top : 200px;
+    height : 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/unsplash-main-view-background.jpg");
+    background-position: center top;
+ 
+}
+
+div[view-about-me]  > h3 {
+    margin-left : 20px;
+}
+div[view-about-me]  > header > * {
+    float : left;
+}
+div[view-about-me]  > header {
+    overflow: hidden;
+    margin-left: 60px;
+}
+div[view-about-me]  > header > img {
+    margin-right: 50px;
+}
+div[view-about-me]  > header > div > p {
+    font-size : 36px;
+    margin : 10px;
+}
+
+div[view-about-me] > section {
+    width : 80%;
+    margin-left: 5%;
+}
+div[view-about-me] > section > h3 {
+    margin-top : 20px;
+    margin-bottom: 20px;
+}
+div[view-about-me] > section  >p {
+    margin-left : 100px;
+    font-size : 24px;
+}
+h3.view-about-me_title {
+    color :aliceblue;
+    font-size :56px;
+}
+
+p.view-about-me_p {
+    color :aliceblue;
+    font-size : 21px;
+}

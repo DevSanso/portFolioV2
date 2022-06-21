@@ -1,0 +1,31 @@
+div[view-main] {
+    padding-top : 200px;
+    height : 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../../img/unsplash-main-view-background.jpg");
+    background-position: center top;
+}
+div[view-main] > section  {
+    filter : brightness(1.25);
+}
+div[view-main] > section > p {
+    color  :azure;
+    text-align: center;
+}
+div[view-main] > section > p.title {
+
+    font-size : 42px;
+}
+
+div[view-main] > section > p.name {
+    font-size : 52px;
+}
+div[view-main] > section > footer {
+    width : 60%;
+    margin-left: 20%;
+    margin-top : 100px;
+
+}
+div[view-main] > section > footer > p.text {
+    color  :azure;
+    font-size : 28px;
+}

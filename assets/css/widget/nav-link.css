@@ -1,0 +1,15 @@
+nav[widget-navlink] {
+    margin : 30px;
+}
+nav[widget-navlink]:hover {
+    cursor: pointer;
+}
+
+nav[widget-navlink] > span {
+    font-size : 52px;
+    color : #FFB72B;
+}
+
+nav[widget-navlink] > span.name {
+    color : #ECECEC;
+}
