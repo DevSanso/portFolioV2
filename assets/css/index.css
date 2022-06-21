@@ -5,12 +5,13 @@ html {
     position: relative;
     min-width : 1600px;
     min-height: 720px;
+    background-color: #7F8487;
 }
 body {
     min-width : 1600px;
     max-width : 1920px;
     min-height: 720px;
-    max-height : 1200px;
+    max-height : 975px;
     height : 100vh;
     margin : 0;
     position: absolute;

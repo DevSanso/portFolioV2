@@ -27,6 +27,6 @@
     "PortFolio":{
         "comment":"포트폴리오",
         "skill":["react","typescript"],
-        "url":null
+        "url":"https://github.com/DevSanso/portFolioV2"
     }
 }

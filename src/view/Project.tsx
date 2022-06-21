@@ -42,21 +42,24 @@ type jsonFileType  = {
 }
 
 class ProjectView extends Component {
-    private renderCard = (key : string) => {
+    private renderCard = (key : string,delay : number) => {
         const data : jsonType = (projectData as jsonFileType)[key];
         return (
-            <ProjectCardWidget skills={data.skill} img={icon[key]} url={data.url}>
+            <div data-aos="fade-up-left" data-aos-duration={`${delay}`} >
+                <ProjectCardWidget 
+                skills={data.skill} img={icon[key]} url={data.url}>
                 {`${key}-${data.comment}`}
             </ProjectCardWidget>
+            </div>
         );
     };
 
-    private renderChild = () => projectKeys.map(value => this.renderCard(value));
+    private renderChild = () => projectKeys.map((value,index,arr) => this.renderCard(value,1000 + 300 * index));
     
 
     public render() {
         return (
-            <div view-project="">
+            <div data-aos="fade-down" view-project="">
                <header>토이프로젝트</header>
                <section>
                     {this.renderChild()}

@@ -13,12 +13,17 @@ class MainView extends Component {
 
     public render() {
         return (
-            <div view-main="">
+            <div  data-aos="fade-down" view-main="">
                 <section>
-                    <p className="title">{data.title}</p>
-                    <p className="name">{`${data.name} 입니다`}</p>
+                    <p data-aos="fade-right"
+                        data-aos-duration="1000"
+                        className="title">{data.title}</p>
+                    <p data-aos="fade-left"
+                        data-aos-duration="1500"
+                        className="name">{`${data.name} 입니다`}</p>
                     <div style={this.emptyDivCss}></div>
-                    <footer>
+                    <footer data-aos="fade-left"
+                        data-aos-duration="2000">
                         <p className="text">{data.text}</p>
                     </footer>
                 </section>
