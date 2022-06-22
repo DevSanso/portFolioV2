@@ -17,11 +17,14 @@ div[widget-change-box] > nav {
 }
 
 div[widget-change-box] > nav  > div {
-    width : 36px;
+    width : 100px;
     height : 36px;
     margin-top : 10px;
     display :inline-block;
+    border-radius: 30px;
+    background-color: #D1D1D1;
 }
 div[widget-change-box] > nav  > div:hover {
     cursor: pointer;
+    background-color: #7882A4;
 }

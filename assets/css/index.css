@@ -43,7 +43,7 @@ main#app > nav > section {
 main#app > nav  > footer {
     width : 100%;
     bottom: 0;
-    font-size : 32px;
+    font-size : 28px;
     color : #ECECEC;
     text-align: center;
 }

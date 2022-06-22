@@ -991,13 +991,16 @@ div[widget-change-box] > nav {
   text-align: center;
 }
 div[widget-change-box] > nav > div {
-  width: 36px;
+  width: 100px;
   height: 36px;
   margin-top: 10px;
   display: inline-block;
+  border-radius: 30px;
+  background-color: #D1D1D1;
 }
 div[widget-change-box] > nav > div:hover {
   cursor: pointer;
+  background-color: #7882A4;
 }
 
 /* assets/css/widget/nav-link.css */
@@ -1393,7 +1396,7 @@ main#app > nav > section {
 main#app > nav > footer {
   width: 100%;
   bottom: 0;
-  font-size: 32px;
+  font-size: 28px;
   color: #ECECEC;
   text-align: center;
 }
