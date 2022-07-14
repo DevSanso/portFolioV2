@@ -9,7 +9,7 @@ import NavLinkWidget from '@app/widget/NavLink';
 import MainView from '@app/view/Main';
 import AboutMeView from "./view/AboutMe";
 import ProjectView from '@app/view/Project';
-
+import SkillView from '@app/view/Skill';
 
 import confactData from '@assets/json/confact.json';
 
@@ -35,6 +35,7 @@ const App = () => {
                 <ChangeBoxWidget>
                     <MainView/>
                     <AboutMeView/>
+                    <SkillView/>
                     <ProjectView/>
                 </ChangeBoxWidget>
             </section>

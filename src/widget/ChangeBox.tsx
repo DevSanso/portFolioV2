@@ -1,4 +1,4 @@
-import React,{useState,CSSProperties} from 'react';
+import React,{useState,CSSProperties, MouseEvent} from 'react';
 
 
 import '@assets/css/widget/change-box.css';
@@ -31,7 +31,6 @@ const ChangeBoxComponent = (props : Props) => {
     const changeViewAction = () => {
         isOver(current+1) ? setCurrent(0) : setCurrent(current + 1);
     };
-
     return (
         <div widget-change-box="" style={styleProps}>
            {renderChildOne()}
