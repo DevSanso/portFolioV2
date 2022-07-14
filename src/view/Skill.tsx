@@ -11,7 +11,7 @@ const mainLang = ["Java","Kotlin","Go","Typescript","Rust"];
 const subLang = ["C","C++","Python","C#","Dart","Javascript"];
 const framework = ["Spring Boot","React","Express","Koa","Flutter"];
 
-class AboutMeView extends Component {
+class SKillView extends Component {
 
     private renderSectionElements = (eles : Array<String>) => 
         eles.map(value => (<span>{value}</span>));
@@ -48,4 +48,4 @@ class AboutMeView extends Component {
 
 
 
-export default AboutMeView;
+export default SKillView;
