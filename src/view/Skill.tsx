@@ -7,9 +7,9 @@ import '@assets/css/font/roboto.css';
 import '@assets/css/view/skill.css';
 
 
-const mainLang = ["Java","Kotlin","Go","Typescript","Rust"];
-const subLang = ["C","C++","Python","C#","Dart","Javascript"];
-const framework = ["Spring Boot","React","Express","Koa","Flutter"];
+const mainLang = ["Java","Kotlin","Go","Typescript"];
+const subLang = ["C","C++","Python","C#","Dart","Javascript","Rust"];
+const framework = ["Spring Boot","React","Express","Koa"];
 
 class SKillView extends Component {
 
@@ -19,7 +19,7 @@ class SKillView extends Component {
 
     public render() {
         return (
-            <div view-skill="">
+            <div view-skill="" data-aos="fade-up" data-aos-duration="1000">
                 <SimpleBar style={{height:"100%"}}>
                     <h3 className="view-skill-h3">Skill</h3>
                     <div className="view-skill-content-container">

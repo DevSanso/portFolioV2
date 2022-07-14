@@ -29490,9 +29490,9 @@
 
   // src/view/Skill.tsx
   var import_react8 = __toESM(require_react());
-  var mainLang = ["Java", "Kotlin", "Go", "Typescript", "Rust"];
-  var subLang = ["C", "C++", "Python", "C#", "Dart", "Javascript"];
-  var framework = ["Spring Boot", "React", "Express", "Koa", "Flutter"];
+  var mainLang = ["Java", "Kotlin", "Go", "Typescript"];
+  var subLang = ["C", "C++", "Python", "C#", "Dart", "Javascript", "Rust"];
+  var framework = ["Spring Boot", "React", "Express", "Koa"];
   var SKillView = class extends import_react8.Component {
     constructor() {
       super(...arguments);
