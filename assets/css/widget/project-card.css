@@ -11,7 +11,7 @@ div[widget-project-card] > * {
 }
 div[widget-project-card]  > header {
     width : 50%;
-    margin-right: 20%;
+    
 }
 
 div[widget-project-card]  > header > * {
@@ -24,8 +24,11 @@ div[widget-project-card]  > header > img {
 }
 
 div[widget-project-card]  > section {
-    width : 30%;
+    width : 50%;
     height: 100%;
+    text-align: right;
+    box-sizing: border-box;
+    padding-right: 50px;
 }
 
 span.project-card-widget-skill-box {
