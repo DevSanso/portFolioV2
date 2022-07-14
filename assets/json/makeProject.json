@@ -1,0 +1,12 @@
+{
+    "AudioServer" : {
+        "comment":"원격 mp3 플레이어 서버",
+        "skill":["spring boot","kotlin"],
+        "url":"https://github.com/DevSanso/audioServer"
+    },
+    "AccessRestrictionServer":{
+        "comment":"http 리퀘스트 접근 확인 서버",
+        "skill":["spring boot","java","kotlin","kafka","go"],
+        "url":"https://github.com/DevSanso/AccessRestrictionServer"
+    }
+}

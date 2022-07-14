@@ -10,6 +10,7 @@ import MainView from '@app/view/Main';
 import AboutMeView from "./view/AboutMe";
 import ProjectView from '@app/view/Project';
 import SkillView from '@app/view/Skill';
+import MakeProjectView from "./view/MakeProject";
 
 import confactData from '@assets/json/confact.json';
 
@@ -37,6 +38,7 @@ const App = () => {
                     <AboutMeView/>
                     <SkillView/>
                     <ProjectView/>
+                    <MakeProjectView/>
                 </ChangeBoxWidget>
             </section>
         </Fragment>
